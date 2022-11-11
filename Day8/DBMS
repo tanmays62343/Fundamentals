@@ -1,0 +1,32 @@
+Keys
+Keys play an important role in the relational database.
+It is used to uniquely identify any record or row of data from the table. 
+It is also used to establish and identify relationships between tables.
+
+Types of Keys - 
+
+1. Primary key
+It is the first key used to identify one and only one instance of an entity uniquely.
+
+2. Candidate key
+A candidate key is an attribute or set of attributes that can uniquely identify a tuple.
+Except for the primary key, the remaining attributes are considered a candidate key.The candidate keys are as strong as the primary key.
+
+3. Super Key
+Super key is an attribute set that can uniquely identify a tuple. A super key is a superset of a candidate key.
+
+4. Foreign key
+Foreign keys are the column of the table used to point to the primary key of another table.
+
+5. Alternate key
+There may be one or more attributes or a combination of attributes that uniquely identify each tuple in a relation. 
+These attributes or combinations of the attributes are called the candidate keys. 
+One key is chosen as the primary key from these candidate keys, and the remaining candidate key, if it exists, is termed the alternate key.
+
+6. Composite key
+Whenever a primary key consists of more than one attribute, it is known as a composite key. This key is also known as Concatenated Key.
+
+7. Artificial key
+The key created using arbitrarily assigned data are known as artificial keys. 
+These keys are created when a primary key is large and complex and has no relationship with many other relations. 
+The data values of the artificial keys are usually numbered in a serial order.
