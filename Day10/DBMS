@@ -1,0 +1,23 @@
+Aggregation
+In aggregation, the relation between two entities is treated as a single entity. 
+In aggregation, relationship with its corresponding entities is aggregated into a higher level entity.
+
+Relationship of higher degree
+The degree of relationship can be defined as the number of occurrences in one entity that is associated with the number of occurrences in another entity.
+
+There is the three degree of relationship:
+
+One-to-one (1:1)
+One-to-many (1:M)
+Many-to-many (M:N)
+
+1. One-to-one
+In a one-to-one relationship, one occurrence of an entity relates to only one occurrence in another entity.
+A one-to-one relationship rarely exists in practice.
+
+2. One-to-many
+In a one-to-many relationship, one occurrence in an entity relates to many occurrences in another entity.
+
+3. Many-to-many
+In a many-to-many relationship, many occurrences in an entity relate to many occurrences in another entity.
+Same as a one-to-one relationship, the many-to-many relationship rarely exists in practice.
