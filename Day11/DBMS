@@ -1,0 +1,21 @@
+Relational Model concept
+Relational model can represent as a table with columns and rows. Each row is known as a tuple. 
+Each table of the column has a name or attribute.
+
+Domain: It contains a set of atomic values that an attribute can take.
+
+Attribute: It contains the name of a column in a particular table. Each attribute Ai must have a domain, dom(Ai)
+
+Relational instance: In the relational database system, the relational instance is represented by a finite set of tuples. Relation instances do not have duplicate tuples.
+
+Relational schema: A relational schema contains the name of the relation and name of all columns or attributes.
+
+Relational key: In the relational key, each row has one or more attributes. It can identify the row in the relation uniquely.
+
+Properties of Relations -
+Name of the relation is distinct from all other relations.
+Each relation cell contains exactly one atomic (single) value
+Each attribute contains a distinct name
+Attribute domain has no significance
+tuple has no duplicate value
+Order of tuple can have a different sequence
