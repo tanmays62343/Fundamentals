@@ -1,0 +1,36 @@
+Relational Algebra
+Relational algebra is a procedural query language. It gives a step by step process to obtain the result of the query. 
+It uses operators to perform queries.
+
+1. Select Operation:
+The select operation selects tuples that satisfy a given predicate.
+It is denoted by sigma (σ).
+Notation:  σ p(r)
+
+2. Project Operation:
+This operation shows the list of those attributes that we wish to appear in the result. 
+Rest of the attributes are eliminated from the table.
+It is denoted by ∏.
+
+3. Union Operation:
+Suppose there are two tuples R and S. The union operation contains all the tuples that are either in R or S or both in R & S.
+It eliminates the duplicate tuples. It is denoted by ∪.
+Notation: R ∪ S   
+
+4. Set Intersection:
+Suppose there are two tuples R and S. The set intersection operation contains all tuples that are in both R & S.
+It is denoted by intersection ∩.
+Notation: R ∩ S
+
+5. Set Difference:
+Suppose there are two tuples R and S. The set intersection operation contains all tuples that are in R but not in S.
+It is denoted by intersection minus (-).
+Notation: R - S
+
+6. Cartesian product
+The Cartesian product is used to combine each row in one table with each row in the other table. It is also known as a cross product.
+It is denoted by X.
+Notation: E X D  
+
+7. Rename Operation:
+The rename operation is used to rename the output relation. It is denoted by rho (ρ).
