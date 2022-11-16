@@ -1,0 +1,32 @@
+Join Operations:
+A Join operation combines related tuples from different relations, if and only if a given join condition is satisfied. It is denoted by ⋈.
+
+Types of Join operations:
+
+1. Natural Join:
+A natural join is the set of tuples of all combinations in R and S that are equal on their common attribute names.
+It is denoted by ⋈.
+
+2. Outer Join:
+The outer join operation is an extension of the join operation. It is used to deal with missing information.
+
+An outer join is basically of three types:
+Left outer join
+Right outer join
+Full outer join
+
+a. Left outer join:
+Left outer join contains the set of tuples of all combinations in R and S that are equal on their common attribute names.
+In the left outer join, tuples in R have no matching tuples in S.
+It is denoted by ⟕.
+
+b. Right outer join:
+Right outer join contains the set of tuples of all combinations in R and S that are equal on their common attribute names.
+In right outer join, tuples in S have no matching tuples in R.
+It is denoted by ⟖.
+
+Full outer join:
+Full outer join is like a left or right join except that it contains all rows from both tables.
+In full outer join, tuples in R that have no matching tuples in S and tuples in S that have no matching tuples in R in their common attribute name.
+It is denoted by ⟗.
+
