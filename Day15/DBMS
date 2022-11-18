@@ -1,0 +1,14 @@
+Functional Dependency
+The functional dependency is a relationship that exists between two attributes. It typically exists between the primary key and non-key attribute within a table.
+X   →   Y  
+The left side of FD is known as a determinant, the right side of the production is known as a dependent.
+
+Types of Functional dependency
+
+1. Trivial functional dependency
+A → B has trivial functional dependency if B is a subset of A.
+The following dependencies are also trivial like: A → A, B → B
+
+2. Non-trivial functional dependency
+A → B has a non-trivial functional dependency if B is not a subset of A.
+When A intersection B is NULL, then A → B is called as complete non-trivial.
